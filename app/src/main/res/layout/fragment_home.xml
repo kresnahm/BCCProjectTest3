@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/flipper">
+
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flipper"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="32dp"
+        android:text="Courses" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="94dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="Courses"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/texsadiew10"
+            android:layout_width="94dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="Courses"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/te0"
+            android:layout_width="94dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="Courses"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flipper"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="20dp"
+        android:text="Jobs" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp">
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="94dp"
+        android:layout_height="88dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/button_rounded"
+        android:text="Jobs"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+    <TextView
+        android:id="@+id/texdtView6"
+        android:layout_width="94dp"
+        android:layout_height="88dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/button_rounded"
+        android:text="Jobs"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+    <TextView
+        android:id="@+id/textViews6"
+        android:layout_width="94dp"
+        android:layout_height="88dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/button_rounded"
+        android:text="Jobs"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+</LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="50dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <!--di hpku layoutnya ngga pas, kalo di hapemu bener hapus aja margin topnya-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="70dp"/>
+
+        <EditText
+            android:id="@+id/emailRegistEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/form_control"
+            android:hint="Email"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="13dp"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/passRegistEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/form_control"
+            android:hint="Password"
+            android:textSize="13dp"
+            android:inputType="textPassword"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="15dp"
+            android:layout_marginBottom="65dp"/>
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button"
+            android:text="Daftar"
+            android:textColor="#fff"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/choice"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_google"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            android:text="Sign Up With Google Account"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:textColor="@color/colorPrimaryDark"
+            style="?android:attr/borderlessButtonStyle"
+            android:drawableLeft="@drawable/ic_search"/>
+
+
+        <TextView
+            android:id="@+id/loginTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah punya akun ? Login Disini "
+            android:textSize="12dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="50dp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <!--<EditText-->
+        <!--android:id="@+id/emailRegistEditText"-->
+        <!--android:layout_width="259dp"-->
+        <!--android:layout_height="42dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginTop="28dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:background="@drawable/rounded_rectangle"-->
+        <!--android:ems="10"-->
+        <!--android:hint="E-mail"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textView6" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/passRegistEditText"-->
+        <!--android:layout_width="259dp"-->
+        <!--android:layout_height="42dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Password"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:background="@drawable/rounded_rectangle"-->
+        <!--android:inputType="textPassword"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/emailRegistEditText" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView4"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginTop="156dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.496"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:srcCompat="@drawable/keratif" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/registerButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginTop="28dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:text="Daftar"-->
+        <!--android:background="@drawable/button_rounded"-->
+        <!--android:textColor="#ffffff"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/passRegistEditText" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/loginTextView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:text="Sudah punya akun? Masuk disini"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.497"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/registerButton" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView6"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="56dp"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--android:text="Daftar Akun Baru"-->
+        <!--android:textSize="25dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.516"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/imageView4" />-->
+
+</android.support.constraint.ConstraintLayout>
